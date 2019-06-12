@@ -9,7 +9,7 @@ import { Recipe } from './models/recipe.model';
 export class AppComponent {
   currentFocus: string = 'Gibby\'s Gibbles';
 
-  recipe: Recipe[] = [
+  recipes: Recipe[] = [
     new Recipe('Bone Bisque'),
     new Recipe('Rawhide Ravioli'),
     new Recipe('Something I dug up from the yard souffle')
